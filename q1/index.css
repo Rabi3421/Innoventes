@@ -1,0 +1,268 @@
+.container {
+  height: max-content;
+  padding: 20px;
+  width: 70%;
+  margin: auto;
+  border: 2px solid black;
+}
+.order{
+    padding: 20px;
+    font-size: 30px;
+    color: blue;
+    font-family:sans-serif;
+}
+.pizza{
+    font-weight: 600;
+}
+.subContainer{
+    border: 1px solid grey;
+    height: max-content;
+    width: 90%;
+    margin: auto;
+}
+.orderRow{
+    border-bottom: 2px solid black;
+    padding: 20px;
+    width: 90%;
+    margin: auto;
+}
+.veriety{
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+}
+.pizzaSlice{
+    width: 60%;
+    text-align: end;
+    color: blue;
+}
+.size{
+    width:25%;
+    text-align: center;
+    color: blue;
+    font-family:sans-serif;
+}
+.minus{
+    width: 5%;
+    text-align: end;
+    color: blue;
+    cursor: pointer;
+}
+.quantity{
+    width: 5%;
+    text-align: end;
+    font-family:sans-serif;
+}
+.plus{
+    cursor: pointer;
+    width: 5%;
+    text-align: end;
+    color: red;
+}
+.adults{
+    display: flex;
+    border-bottom: 2px solid black;
+    padding: 20px;
+    width: 90%;
+    margin: auto;
+}
+.personIcon{
+    width: 5%;
+    color: blue;
+}
+.person{
+    width: 80%;
+    color: blue;
+    text-align: left;
+}
+.children{
+    display: flex;
+    padding: 20px;
+    width: 90%;
+    margin: auto;
+}
+.totalOrder{
+    display: flex;
+    width: 78%;
+    margin-left: 100px;
+    justify-content: space-between;
+}
+.price{
+    margin-top: 30px;
+}
+@media(min-width:451px) and (max-width:1024px){
+    .totalOrder{
+        display: flex;
+        width: 80%;
+        margin-left:55px;
+        justify-content: space-between;
+    }
+}
+@media(min-width:451px) and (max-width:768px){
+    .pizzaSlice{
+        width: 50%;
+        text-align: end;
+        color: blue;
+    }
+    .size{
+        width:30%;
+        text-align: center;
+        color: blue;
+        font-family:sans-serif;
+    }
+    .quantity{
+        width: 10%;
+        text-align: center;
+        font-family:sans-serif;
+    }
+    .totalOrder{
+        display: flex;
+        width: 75%;
+        margin-left:55px;
+        justify-content: space-between;
+    }
+}
+@media(min-width:425px) and (max-width:451px){
+    .pizzaSlice{
+        width: 30%;
+        text-align: end;
+        color: blue;
+        font-size: 15px;
+        
+    }
+    .size{
+        width:45%;
+        text-align: center;
+        color: blue;
+        font-family:sans-serif;
+        font-size: 15px;
+        
+    }
+    .minus{
+        width: 5%;
+        text-align: end;
+        color: blue;
+        cursor: pointer;
+        font-size: 15px;
+        
+    }
+    .quantity{
+        width: 10%;
+        text-align: end;
+        font-family:sans-serif;
+        font-size: 15px;
+    }
+    .plus{
+        cursor: pointer;
+        font-size: 15px;
+        width: 10%;
+        text-align: end;
+        color: red;
+    }
+    .personIcon{
+        width: 5%;
+        font-size: 15px;
+        color: blue;
+    }
+    .person{
+        font-size: 15px;
+        width: 70%;
+        color: blue;
+        text-align: center;
+    }
+    .totalOrder{
+        display: flex;
+        margin-left:5px;
+        width: 100%;
+
+        
+    }
+    .order{
+        font-size: 20px;
+    }
+    .price{
+        margin-top: 20px;
+        margin-left: 50px;
+    }
+}
+@media(min-width:375px) and (max-width:451px){
+    .pizzaSlice{
+        width: 30%;
+        text-align: end;
+        color: blue;
+        font-size: 15px;
+        
+    }
+    .orderRow{
+        border-bottom: 2px solid black;
+        padding: 20px;
+        width: 80%;
+        margin: auto;
+    }
+    .size{
+        width:45%;
+        text-align: center;
+        color: blue;
+        font-family:sans-serif;
+        font-size: 15px;
+        
+    }
+    .minus{
+        width: 5%;
+        text-align: end;
+        color: blue;
+        cursor: pointer;
+        font-size: 15px;
+        
+    }
+    .quantity{
+        width: 10%;
+        text-align: end;
+        font-family:sans-serif;
+        font-size: 15px;
+    }
+    .plus{
+        cursor: pointer;
+        font-size: 15px;
+        width: 10%;
+        text-align: end;
+        color: red;
+    }
+    .personIcon{
+        width: 5%;
+        font-size: 15px;
+        color: blue;
+    }
+    .person{
+        font-size: 15px;
+        width: 70%;
+        color: blue;
+        text-align: center;
+    }
+    .totalOrder{
+        display: flex;
+        margin-left:5px;
+        width: 80%;
+
+    }
+    .children{
+        display: flex;
+        padding: 20px;
+        width: 80%;
+        margin: auto;
+    }
+    .adults{
+        display: flex;
+        border-bottom: 2px solid black;
+        padding: 20px;
+        width: 80%;
+        margin: auto;
+    }
+    .order{
+        font-size: 20px;
+    }
+    .price{
+        margin-top: 20px;
+        margin-left: 50px;
+    }
+}
